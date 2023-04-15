@@ -97,6 +97,11 @@ table thead {
     font-weight: bold;
 }
 
+table thead tr{
+    line-height: 60px;
+
+}
+
 table tbody {
     text-align: center;
 }
@@ -107,3 +112,18 @@ table tbody tr {
     border-bottom: 1px solid #c1c1c1;
 }
 
+
+.gold {
+    background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+    font-weight: bold;
+}
+
+.silver {
+    background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%);
+    font-weight: bold;
+}
+
+.bronze {
+    background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
+    font-weight: bold;
+}

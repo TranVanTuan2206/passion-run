@@ -28,6 +28,19 @@ function processTime(seconds) {
     return date;
 }
 
+function prettierClass(index) {
+    switch(index) {
+        case 1:
+            return 'gold';
+        case 2:
+            return 'silver';
+        case 3:
+            return 'bronze';
+        default:
+            return 'normal'
+    }
+}
+
 
 function displayData(dataArr) {
     // display count members
@@ -36,7 +49,7 @@ function displayData(dataArr) {
     dataArr.map((e,index) => {
         let date = processTime(e.show_time);
         tableString += ` 
-        <tr>
+        <tr class="${prettierClass(index + 1)}">
             <td>${index + 1}</td>
             <td>${e.user_name}</td>
             <td>${(e.show_km / 1000).toString().replace('.',',')}</td>
@@ -66,5 +79,6 @@ async function getapi() {
 }
 // Calling that async function
 getapi();
+
 
 
