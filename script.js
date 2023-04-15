@@ -1,4 +1,4 @@
-const MY_TEAM = ['tuantv18','yhtn1','thuongva','huydn7','thanhnc40','tungts4','huypvg'];
+const MY_TEAM = ['tuantv18','yhtn1','thuongva','huydn7','thanhnc40','tungts4','huypvg','trivm3'];
 
 function processTime(seconds) {
     let date = '';

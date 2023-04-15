@@ -81,6 +81,8 @@ main .title {
  color:rgb(255, 255, 255);
  margin: 32px 12px 0 12px;
  background-image: url("https://st-vrace.vnecdn.net/v61/images/graphics/cover.png");
+ background-repeat: no-repeat;
+ background-size: 100%;
 }
 
 .member-count {
