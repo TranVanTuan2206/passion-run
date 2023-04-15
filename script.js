@@ -17,7 +17,6 @@ function processTime(seconds) {
 
     if(seconds > 60) {
         date += Math.floor(seconds / 60) + 'm';
-        seconds -= 60 * Math.floor(seconds / 60);
     }
 
 
