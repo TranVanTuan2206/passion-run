@@ -97,19 +97,25 @@ table thead {
     font-weight: bold;
 }
 
-table thead tr{
-    line-height: 60px;
-
+table thead, thead tr, thead tr td{
+    height: 32px;
+    vertical-align: center;
+    border-bottom: 3px solid #c1c1c1;
 }
 
 table tbody {
     text-align: center;
 }
 
-table tbody tr {
+table tbody tr:not(:last-child) {
     height: 64px;
     line-height: 64px;
     border-bottom: 1px solid #c1c1c1;
+}
+
+table tbody tr:last-child {
+    height: 64px;
+    line-height: 64px;
 }
 
 
